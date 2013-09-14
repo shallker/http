@@ -35,9 +35,9 @@ var http = new HTTP;
 
 #### http.fail(Function callback)
 
-#### http.post([String address], [Function callback])
+#### http.post(String address, [Mix Data], [Function callback])
 
-#### http.get([String address], [Function callback])
+#### http.get(String address, [Function callback])
 
 #### http.request([String address], [Function callback])
 

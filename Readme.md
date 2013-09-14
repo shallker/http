@@ -17,29 +17,29 @@ var HTTP = require('http');
 var http = new HTTP;
 ```
 
-### http.url(String address)
+#### http.url(String address)
 
-### http.header(String name, String value)
+#### http.header(String name, String value)
 
-### http.data(Mix value)
+#### http.data(Mix value)
 
-### http.method(String name)
+#### http.method(String name)
 
-### http.on(String event, Function callback)
+#### http.on(String event, Function callback)
 
-### http.off(String event, Function callback)
+#### http.off(String event, Function callback)
 
-### http.complete(Function callback)
+#### http.complete(Function callback)
 
-### http.success(Function callback)
+#### http.success(Function callback)
 
-### http.fail(Function callback)
+#### http.fail(Function callback)
 
-### http.post([String address], [Function callback])
+#### http.post([String address], [Function callback])
 
-### http.get([String address], [Function callback])
+#### http.get([String address], [Function callback])
 
-### http.request([String address], [Function callback])
+#### http.request([String address], [Function callback])
 
 
 ## Test

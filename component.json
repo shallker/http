@@ -1,0 +1,17 @@
+{
+  "name": "http",
+  "repo": "shallker/http",
+  "description": "Ultimate XHR request",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "shallker-wang/eventy": "*"  
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/http.js"
+  ]
+}

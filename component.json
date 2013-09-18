@@ -2,7 +2,7 @@
   "name": "http",
   "repo": "shallker/http",
   "description": "Ultimate XHR solution, for me.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
     "shallker-wang/eventy": "*"  

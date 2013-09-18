@@ -57,8 +57,8 @@ f(http.off)
 f(http.complete)
 f(http.success)
 f(http.fail)
-f(http.post)
-f(http.get)
+f(http.POST)
+f(http.GET)
 f(http.request)
 
 ok(http.on('complete', function () { log('complete') }))
@@ -71,7 +71,7 @@ ok(http.on('Ok', function () { log('Ok') }))
 ok(http.on(304, function () { log(304) }))
 ok(http.on('Not Modified', function () { log('Not Modified') }))
 
-ok(http.get('http://lc:3000/test/http.js', function () { log('done') }))
+ok(http.GET('http://lc:3000/test/http.js', function () { log('done') }))
 ```
 
 ## License

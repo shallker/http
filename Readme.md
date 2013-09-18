@@ -1,7 +1,7 @@
 
 # http
 
-  Ultimate XHR request
+  Ultimate XHR solution, for me.
 
 
 ## Installation

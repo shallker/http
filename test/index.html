@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <script src="/build/build.js"></script>
+  </head>
+  <body>
+    <script>
+      var Http = require('http');
+      var test = require('simple-test');
+
+      test('http.GET(url)', function (done) {
+        var http = new Http;
+
+        window.http = http
+
+        http.GET('/test/index.html');
+
+        http.on(200, function (a, b) {
+          test.eq(this.statusText, 'OK');
+          test.eq(this.status, 200);
+          done();
+        });
+      });
+
+      test('http.HEAD(url)', function (done) {
+        var http = new Http;
+
+        http.HEAD('/test/index.html', function (a) {
+          console.log('this', this)
+        });
+
+        http.on(200, function (a, b) {
+          test.eq(this.statusText, 'OK');
+          test.eq(this.status, 200);
+          done();
+        });
+      });
+    </script>
+  </body>
+</html>

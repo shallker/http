@@ -7,7 +7,9 @@
   "dependencies": {
     "shallker-wang/eventy": "*"  
   },
-  "development": {},
+  "development": {
+    "shallker/simple-test": "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [

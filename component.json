@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "keywords": [],
   "dependencies": {
+    "shallker/object-xhr": "*",
     "shallker-wang/eventy": "*"  
   },
   "development": {

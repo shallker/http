@@ -37,7 +37,7 @@ var http = new HTTP;
 
 #### http.GET(String address, [Function callback])
 
-#### http.DELETE(String address, [Function callback])
+#### http.REMOVE(String address, [Function callback])
 
 #### http.POST(String address, Mix data, [Function callback])
 
